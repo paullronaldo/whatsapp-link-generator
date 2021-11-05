@@ -49,7 +49,7 @@ var app = new Vue({
 
       function generateLink(number) {
         return {
-          link: encodeURI(`https://api.whatsapp.com/send/?text=${message}&?phone=${number}`),
+          link: encodeURI(`https://api.whatsapp.com/send/?text=${message}&phone=${number}`),
           // onlyLink: encodeURI(`https://api.whatsapp.com/send/?text=${message}`),
           number: number
         }
